@@ -1,0 +1,20 @@
+{
+  "name": "my-cors-proxy",
+  "version": "1.0.0",
+  "description": "This project is a simple CORS proxy server built with Express.js. It forwards requests to a specified API while enabling Cross-Origin Resource Sharing (CORS) for all routes.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3"
+  },
+  "devDependencies": {}
+}
